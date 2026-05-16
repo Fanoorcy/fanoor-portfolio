@@ -8,7 +8,7 @@ const OdometerComponent = ({ max }) => {
   const odometerInitRef = useRef();
 
   useEffect(() => {
-    import("odometer").then((Odometer) => {
+    /*import("odometer").then((Odometer) => {
       // Initialize Odometer or do something with it
 
       // Example usage of Odometer
@@ -18,7 +18,7 @@ const OdometerComponent = ({ max }) => {
           value,
         });
       }
-    });
+    });*/
   }, []);
   useEffect(() => {
     if (odometerRef.current && odometerInitRef.current) {
