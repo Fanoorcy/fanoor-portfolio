@@ -21,6 +21,8 @@ export const metadata = {
   description:
     "IT graduate focused on cybersecurity and ethical hacking, building practical experience in networking, system security, and real-world IT projects through continuous learning.",
 };
+
+/*
 export default function Home() {
   return (
     <>
@@ -32,7 +34,7 @@ export default function Home() {
       <Services2 />
       <Education />
       <Brands />
-      {/* <Portfolio /> */}
+      //<Portfolio />
       <Skills2 />
       <Testimonials />
       <Contact />
@@ -41,5 +43,39 @@ export default function Home() {
       <Copyright />
       <CommonComponents />
     </>
+  );
+} 
+
+*/
+
+export default function Home() {
+  return (
+    <main
+      style={{
+        height: "100vh",
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "center",
+        alignItems: "center",
+        background: "#0d1117",
+        color: "white",
+        textAlign: "center",
+        padding: "20px",
+      }}
+    >
+      <h1 style={{ fontSize: "3rem", marginBottom: "20px" }}>
+        Fanoor.dev
+      </h1>
+
+      <p style={{ fontSize: "1.2rem", maxWidth: "600px" }}>
+        My portfolio is currently under development.
+        <br />
+        I’m working on creating a professional space to showcase my IT and cybersecurity journey.
+      </p>
+
+      <p style={{ marginTop: "30px", opacity: 0.7 }}>
+        Coming soon.
+      </p>
+    </main>
   );
 }
