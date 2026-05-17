@@ -25,7 +25,7 @@ export const services = [
 {
   id: 4,
   icon: "fa-light fa-magnifying-glass",
-  title: "Technical Research & Analysis",
+  title: "Research & Analysis",
   projects: "2 Projects",
   animationOrder: "4",
 },

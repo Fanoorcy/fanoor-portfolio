@@ -72,7 +72,7 @@ export const skillSections = [
       { name: "HTML/CSS", percent: 85, duration: "0.5s", delay: ".3s" },
       { name: "Java", percent: 70, duration: "0.6s", delay: ".4s" },
       { name: "SQL", percent: 70, duration: "0.7s", delay: ".5s" },
-      { name: "Computer Networks (TCP/IP, subnetting)", percent: 75, duration: "0.7s", delay: ".5s" },
+      { name: "Computer Networks", percent: 75, duration: "0.7s", delay: ".5s" },
       {
         name: "Cisco Packet Tracer",
         percent: 85,
@@ -84,11 +84,11 @@ export const skillSections = [
   {
     title: "Cybersecurity & Systems Skills",
 skills: [
-  { name: "Cybersecurity Fundamentals", percent: 55, duration: "0.5s", delay: ".3s" },
-  { name: "Network Security Basics", percent: 60, duration: "0.6s", delay: ".4s" },
-  { name: "Linux for System Administration", percent: 55, duration: "0.7s", delay: ".5s" },
+  { name: "Cloud Security", percent: 45, duration: "0.5s", delay: ".3s" },
+  { name: "Network Security", percent: 60, duration: "0.6s", delay: ".4s" },
+  { name: "Linux", percent: 55, duration: "0.7s", delay: ".5s" },
   { name: "Vulnerability Awareness", percent: 50, duration: "0.7s", delay: ".5s" },
-  { name: "Secure Networking Concepts", percent: 60, duration: "0.8s", delay: ".6s" },
+  { name: "Ethical Hacking", percent: 40, duration: "0.8s", delay: ".6s" },
 ],
   },
 ];
