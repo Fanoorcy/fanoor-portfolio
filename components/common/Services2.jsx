@@ -7,17 +7,16 @@ export default function Services2() {
       <div className="container">
         <div className="section-head mb--60">
           <div className="section-sub-title center-title tmp-scroll-trigger tmp-fade-in animation-order-1">
-            <span className="subtitle">Latest Service</span>
-          </div>
-          <h2 className="title split-collab tmp-scroll-trigger tmp-fade-in animation-order-2">
-            Inspiring The World One Project
-          </h2>
-          <p className="description section-sm tmp-scroll-trigger tmp-fade-in animation-order-3">
-            {" "}
-            Business consulting consultants provide expert advice and guida
-            businesses to help them improve their performance, efficiency, and
-            organizational{" "}
-          </p>
+  <span className="subtitle">What I Work On</span>
+</div>
+
+<h2 className="title split-collab tmp-scroll-trigger tmp-fade-in animation-order-2">
+  Building Skills in IT Systems & Cybersecurity
+</h2>
+
+<p className="description section-sm tmp-scroll-trigger tmp-fade-in animation-order-3">
+  I focus on developing practical knowledge in computer systems, networking and IT infrastructure through hands-on learning, technical projects and continuous study. My goal is to build strong foundations in IT while progressing toward cybersecurity and system security practices.
+</p>
         </div>
         <div className="row">
           <div className="col-lg-6">

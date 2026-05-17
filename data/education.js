@@ -1,30 +1,30 @@
 export const educationExperienceData = [
   {
-    role: "Trainer Marketing",
-    duration: "2005-2009",
+    role: "Web Content Intern",
+    duration: "May 2024 - June 2024",
     description:
-      "A personal portfolio is a curated collection of an individual's professional work, showcasing their skills, experience A personal portfolio.",
+      "Worked on website content updates, maintenance, and basic technical support in a professional web agency environment. Gained exposure to production workflows, client communication, and collaborative development processes.",
     animationOrder: 1,
   },
   {
-    role: "Assistant Director",
-    duration: "2010-2014",
+    role: "IT & Electronics Intern",
+    duration: "Oct 2024 - Nov 2024",
     description:
-      "Each project here showcases my commitment to excellence and adaptability, tailored to meet each client’s unique needs.",
+      "Supported technicians in electronics and telecommunications, assisting with system maintenance, installations, wiring, and troubleshooting of hardware and communication systems.",
     animationOrder: 2,
   },
   {
-    role: "Design Assistant",
-    duration: "2008-2012",
+    role: "Barista",
+    duration: "Jul 2024 - Aug 2024",
     description:
-      "I’ve had the privilege of working with various clients, from startups to established companies, helping bring their visions to life.",
+      "Worked in a fast-paced environment handling customer service, payments, and daily operations. Developed strong communication, multitasking, and problem-solving skills.",
     animationOrder: 3,
   },
   {
-    role: "Design Assistant",
-    duration: "2008-2012",
+    role: "Security Officer",
+    duration: "Feb 2026 - Present",
     description:
-      "Each project here showcases my commitment to excellence and adaptability, tailored to meet each client’s unique needs a personal.",
+      "Working night shifts as a security officer while pursuing my technical path in IT. Responsible for monitoring premises, ensuring safety, and incident response. This role has strengthened discipline, attention to detail, and time management.",
     animationOrder: 4,
   },
 ];

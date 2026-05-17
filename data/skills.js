@@ -82,19 +82,14 @@ export const skillSections = [
     ],
   },
   {
-    title: "Cybersecurity & Offensive Security Skills (In Progress)",
-    skills: [
-      { name: "Cybersecurity Fundamentals", percent: 50, duration: "0.5s", delay: ".3s" },
-      { name: "Ethical Hacking Basics", percent: 40, duration: "0.6s", delay: ".4s" },
-      { name: "Network Security Basics", percent: 60, duration: "0.7s", delay: ".5s" },
-      { name: "Linux Basics (security use)", percent: 55, duration: "0.7s", delay: ".5s" },
-      {
-        name: "Vulnerability Awareness",
-        percent: 45,
-        duration: "0.8s",
-        delay: ".6s",
-      },
-    ],
+    title: "Cybersecurity & Systems Skills",
+skills: [
+  { name: "Cybersecurity Fundamentals", percent: 55, duration: "0.5s", delay: ".3s" },
+  { name: "Network Security Basics", percent: 60, duration: "0.6s", delay: ".4s" },
+  { name: "Linux for System Administration", percent: 55, duration: "0.7s", delay: ".5s" },
+  { name: "Vulnerability Awareness", percent: 50, duration: "0.7s", delay: ".5s" },
+  { name: "Secure Networking Concepts", percent: 60, duration: "0.8s", delay: ".6s" },
+],
   },
 ];
 

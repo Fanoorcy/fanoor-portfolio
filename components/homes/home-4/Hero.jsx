@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import OdometerComponent from "@/components/common/OdometerComponent";
+import Counter from "@/components/common/Counter";
 export default function Hero() {
   return (
     <div className="rpp-banner-four-area">
@@ -61,7 +61,7 @@ export default function Hero() {
                 <div className="year-expariance-wrap">
                   {/* <h3 class="title "><span class="counter">25</span></h3> */}
                   <h3 className="counter title">
-                    <OdometerComponent max={25} />
+                    <Counter value={25} />
                   </h3>
                   <p className="para">
                     Years Of <br />

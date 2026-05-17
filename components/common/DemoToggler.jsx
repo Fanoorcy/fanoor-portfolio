@@ -3,7 +3,7 @@
 import { openDemoModal } from "@/utlis/toggleDemoModal";
 
 export default function DemoToggler() {
-  return (
+  return ( 
     <div className="demo-button-wrapper">
       <div className="buy-theme">
         <a target="_blank" href="https://themeforest.net/item/reeni-personal-portfolio-cv-resume-react-nextjs-template/58144525">
@@ -36,6 +36,6 @@ export default function DemoToggler() {
           </div>
         </div>
       </div>
-    </div>
+    </div> 
   );
-}
+} 

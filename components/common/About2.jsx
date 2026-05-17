@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { counters } from "@/data/facts";
-import OdometerComponent from "./OdometerComponent";
+import Counter from "./Counter";
 import { aboutCards } from "@/data/aboutCards";
 export default function About2() {
   return (
@@ -57,7 +57,7 @@ export default function About2() {
                   className={`counter-card tmp-scroll-trigger tmp-fade-in tmponhover animation-order-${item.order}`}
                 >
                   <h3 className="counter counter-title">
-                    <OdometerComponent max={item.count} /> {item.suffix}
+                    <Counter value={item.count} /> {item.suffix}
                   </h3>
                   <p className="counter-para">{item.text}</p>
                 </div>

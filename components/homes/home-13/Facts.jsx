@@ -1,4 +1,4 @@
-import OdometerComponent from "@/components/common/OdometerComponent";
+import Counter from "@/components/common/Counter";
 import { countData } from "@/data/facts";
 import React from "react";
 
@@ -11,7 +11,7 @@ export default function Facts() {
             <div className="count-box counter-style-2 border-style small-radious text-center">
               <div>
                 <h3 className="count-number tmponhover">
-                  <OdometerComponent max={item.count} />
+                  <Counter value={item.count} />
                 </h3>
               </div>
               <h5 className="title">{item.title}</h5>

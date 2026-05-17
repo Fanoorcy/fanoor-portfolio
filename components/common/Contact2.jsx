@@ -61,13 +61,12 @@ export default function Contact({
                     <span className="subtitle">GET IN TOUCH</span>
                   </div>
                   <h2 className="title split-collab tmp-scroll-trigger tmp-fade-in animation-order-2">
-                    Elevate your brand with Me
-                  </h2>
-                  <p className="description tmp-scroll-trigger tmp-fade-in animation-order-3">
-                    ished fact that a reader will be distrol acted bioiiy desig
-                    ished fact that a reader will acted ished fact that a reader
-                    will be distrol acted
-                  </p>
+  Let’s Build Something Together
+</h2>
+
+<p className="description tmp-scroll-trigger tmp-fade-in animation-order-3">
+  I’m open to opportunities, collaborations, and learning experiences in technical environments.
+</p>
                 </div>
               </div>
               <div className="col-lg-7">

@@ -68,8 +68,8 @@ export default function Contact() {
                   <i className="fa-solid fa-envelope" />
                 </div>
                 <h3 className="title">E-mail</h3>
-                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=fahdkharras@gmail.com&su=Portfolio%20Contact" target="_blank" rel="noopener noreferrer">
-                  fahdkharras@gmail.com
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=contact@fanoor.dev&su=Portfolio%20Contact" target="_blank" rel="noopener noreferrer">
+                  contact@fanoor.dev
                 </a>
               </div>
             </div>

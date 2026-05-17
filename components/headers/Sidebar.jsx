@@ -45,68 +45,97 @@ export default function Sidebar() {
               </a>
             </div>
             <h5 className="title mt--30">
-              Freelancer delivering exceptional Webflow, and Next.js solutions.
+              IT Technician focused on systems, networking & cybersecurity fundamentals.
             </h5>
             <p className="disc">
-              I am a skilled freelancer specializing in Webflow development,
-              Figma design, and Next.js projects. I deliver creative, dynamic,
-              and user-centric web solutions.
+              Computer Science Technician with a technical background in IT systems, networking and infrastructure.
+              Currently developing practical skills in cybersecurity, system administration and secure technologies.
             </p>
+            {/* CONTACT */}
             <div className="short-contact-area">
-              {/* single contact information */}
-              <div className="single-contact">
-                <i className="fa-solid fa-phone" />
-                <div className="information tmp-link-animation">
-                  <span>Call Now</span>
-                  <a href="#" className="number">
-                    +92 (8800) - 98670
-                  </a>
-                </div>
-              </div>
-              {/* single contact information end */}
-              {/* single contact information */}
+
               <div className="single-contact">
                 <i className="fa-solid fa-envelope" />
                 <div className="information tmp-link-animation">
-                  <span>Mail Us</span>
-                  <a href="#" className="number">
-                    example@info.com
+                  <span>Email</span>
+                  <a
+                    href="https://mail.google.com/mail/?view=cm&fs=1&to=contact@fanoor.dev&su=Portfolio%20Contact"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="number"
+                  >
+                    contact@fanoor.dev
                   </a>
                 </div>
               </div>
-              {/* single contact information end */}
-              {/* single contact information */}
+
               <div className="single-contact">
-                <i className="fa-solid fa-location-crosshairs" />
+                <i className="fa-solid fa-phone" />
                 <div className="information tmp-link-animation">
-                  <span>My Address</span>
-                  <span className="number">66 Broklyant, New York 3269</span>
+                  <span>Phone</span>
+                  <a href="tel:+393515947733" className="number">
+                    +39 351 594 7733
+                  </a>
                 </div>
               </div>
-              {/* single contact information end */}
+
+              <div className="single-contact">
+                <i className="fa-solid fa-location-dot" />
+                <div className="information tmp-link-animation">
+                  <span>Location</span>
+                  <span className="number">
+                    Castiglione delle Stiviere (MN), Italy
+                  </span>
+                </div>
+              </div>
+
             </div>
-            {/* social area start */}
+
+            {/* SOCIAL */}
             <div className="social-wrapper mt--20">
-              <span className="subtitle">find with me</span>
+              <span className="subtitle">Connect</span>
+
               <div className="social-link">
-                <a href="#">
-                  <i className="fa-brands fa-instagram" />
-                </a>
-                <a href="#">
+
+                <a
+                  href="https://www.linkedin.com/in/fahd-kharras-781b72220/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <i className="fa-brands fa-linkedin-in" />
                 </a>
-                <a href="#">
-                  <i className="fa-brands fa-twitter" />
+
+                <a
+                  href="https://github.com/Fanoorcy"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="fa-brands fa-github" />
                 </a>
-                <a href="#">
-                  <i className="fa-brands fa-facebook-f" />
+
+                <a
+                  href="https://www.instagram.com/akhi_fahdd/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="fa-brands fa-instagram" />
                 </a>
+
+                <a
+                  href="https://mail.google.com/mail/?view=cm&fs=1&to=contact@fanoor.dev&su=Portfolio%20Contact"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="fa-solid fa-envelope" />
+                </a>
+
               </div>
             </div>
-            {/* social area end */}
+
           </div>
         </div>
       </div>
+
       <a
         className="overlay_close_side_menu close_side_menu_active"
         onClick={closeSidebar}

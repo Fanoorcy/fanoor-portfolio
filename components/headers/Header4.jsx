@@ -21,6 +21,7 @@ export default function Header4() {
                       src="/assets/images/logo/white-logo-reeni.png"
                       width={121}
                       height={41}
+                      style={{ width: 'auto', height: 'auto' }}
                     />
                     <Image
                       className="logo-white"
@@ -28,6 +29,7 @@ export default function Header4() {
                       src="/assets/images/logo/logo-white.png"
                       width={121}
                       height={40}
+                      style={{ width: 'auto', height: 'auto' }}
                     />
                   </Link>
                 </div>

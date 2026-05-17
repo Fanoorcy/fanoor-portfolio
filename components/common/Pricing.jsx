@@ -5,11 +5,11 @@ export default function Pricing({
   parentClass = "our-price-plan-area tmp-section-gapTop",
 }) {
   return (
-    <section className={parentClass} id="pricing">
-      <div className="container">
+    <section className={parentClass} id="pricing"> {/* PRICING SECTION COMMENTED OUT
+      <div className="container"> 
         <div className="section-head mb--50">
           <div className="section-sub-title center-title tmp-scroll-trigger tmp-fade-in animation-order-1">
-            <span className="subtitle">My Price plan</span>
+            <span className="subtitle">My Pricing Plan</span>
           </div>
           <h2 className="title split-collab tmp-scroll-trigger tmp-fade-in animation-order-2">
             Enhancing Collaboration <br /> between Remote
@@ -63,7 +63,7 @@ export default function Pricing({
             </div>
           ))}
         </div>
-      </div>
-    </section>
+      </div>*/}
+    </section> 
   );
 }

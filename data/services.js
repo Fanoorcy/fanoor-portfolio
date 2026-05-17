@@ -2,33 +2,33 @@ import { slugify } from "@/utlis/slugify";
 
 export const services = [
   {
-    id: 1,
-    icon: "fa-light fa-pen-ruler",
-    title: "Web Design",
-    projects: "120 Projects",
-    animationOrder: "1",
-  },
-  {
-    id: 2,
-    icon: "fa-light fa-bezier-curve",
-    title: "Ui/Ux Design",
-    projects: "241 Projects",
-    animationOrder: "2",
-  },
-  {
-    id: 3,
-    icon: "fa-light fa-lightbulb",
-    title: "Web Research",
-    projects: "240 Projects",
-    animationOrder: "3",
-  },
-  {
-    id: 4,
-    icon: "fa-light fa-envelope",
-    title: "Marketing",
-    projects: "331 Prodect",
-    animationOrder: "4",
-  },
+  id: 1,
+  icon: "fa-light fa-network-wired",
+  title: "Networking & Systems",
+  projects: "39 Projects",
+  animationOrder: "1",
+},
+{
+  id: 2,
+  icon: "fa-light fa-server",
+  title: "IT Infrastructure & Systems",
+  projects: "15 Projects",
+  animationOrder: "2",
+},
+{
+  id: 3,
+  icon: "fa-light fa-lock",
+  title: "Cybersecurity Fundamentals",
+  projects: "6 Projects",
+  animationOrder: "3",
+},
+{
+  id: 4,
+  icon: "fa-light fa-magnifying-glass",
+  title: "Technical Research & Analysis",
+  projects: "2 Projects",
+  animationOrder: "4",
+},
 ].map((elm) => {
   return {
     ...elm,
@@ -215,19 +215,19 @@ export const serviceCards = [
 
 export const services5 = [
   {
-    title: "A Portfolio of Creativity",
+    title: "IT Systems & Technical Foundations",
     description:
-      "Business consulting consultants provide expert advice and guida the a businesses to help theme their performance efficiency",
+      "Focused on building strong fundamentals in computer systems, networking and IT infrastructure through practical learning and hands-on projects.",
   },
   {
-    title: "My Portfolio of Innovation",
+    title: "Networking & Infrastructure Practice",
     description:
-      "My work is driven by the belief that thoughtful design and strategic planning can empower brands, transform businesses",
+      "Exploring how networks and IT systems operate, with emphasis on configuration, troubleshooting and real-world technical understanding.",
   },
   {
-    title: "A Showcase of My Projects",
+    title: "Cybersecurity Learning Path",
     description:
-      "In this portfolio, you’ll find a curated selection of projects that highlight my skills in [Main Areas, e.g., responsive web design",
+      "Developing foundational knowledge in cybersecurity, including system security principles, vulnerability awareness and secure practices.",
   },
 ];
 export const serviceCards2 = [

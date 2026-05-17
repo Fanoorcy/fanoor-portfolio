@@ -7,7 +7,7 @@ export default function Education() {
     <section className="education-experience tmp-section-gapTop">
       <div className="container">
         <h2 className="custom-title mb-32 tmp-scroll-trigger tmp-fade-in animation-order-1">
-          Education{" "}
+          Work Experience
           <span>
             <Image
               alt="custom-line"
@@ -30,6 +30,7 @@ export default function Education() {
             </div>
           ))}
         </div>
+        {/* EXPERIENCES SECTION COMMENTED OUT
         <div className="experiences-wrapper v2">
           <div className="row">
             <div className="col-lg-6">
@@ -43,7 +44,8 @@ export default function Education() {
                 />
               </div>
             </div>
-            <div className="col-lg-6">
+            
+             <div className="col-lg-6">
               <div className="experiences-wrap-left-content">
                 <h2 className="custom-title mb-32 tmp-scroll-trigger tmp-fade-in animation-order-1">
                   Experiences{" "}
@@ -74,11 +76,11 @@ export default function Education() {
                     Interested in working together? Let’s bring your ideas to
                     life! Contact me, and let’s start building something.
                   </p>
-                </div>
-              </div>
-            </div>
+                </div> 
+              </div> 
+            </div> 
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

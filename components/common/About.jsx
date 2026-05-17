@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import OdometerComponent from "./OdometerComponent";
+import Counter from "./Counter";
 export default function About({ parentClass = "about-us-area" }) {
   return (
     <section className={parentClass} id="about">
@@ -11,7 +11,7 @@ export default function About({ parentClass = "about-us-area" }) {
             <div className="about-us-left-content-wrap bg-vactor-one">
               <div className="years-of-experience-card tmp-scroll-trigger tmp-fade-in animation-order-1">
                 <h2 className="counter card-title">
-                  <OdometerComponent max={10} /> +
+                  <Counter value={10} /> +
                 </h2>
                 <p className="card-para">years of experience</p>
               </div>

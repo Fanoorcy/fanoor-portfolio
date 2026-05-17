@@ -16,9 +16,10 @@ export default function Hero() {
                   src="/assets/images/banner/banner-user-image-one.png"
                   width={486}
                   height={781}
+                  style={{ width: 'auto', height: 'auto' }}
                 />
-                <h2 className="banner-big-text-1 up-down">ETHICAL HACKER</h2>
-                <h2 className="banner-big-text-2 up-down-2">ETHICAL HACKER</h2>
+                <h2 className="banner-big-text-1 up-down">IT SPECIALIST</h2>
+                <h2 className="banner-big-text-2 up-down-2">IT SPECIALIST</h2>
               </div>
             </div>
             <div className="col-lg-6 order-lg-1">
@@ -32,27 +33,27 @@ export default function Hero() {
                     <span className="cd-headline clip is-full-width">
                       <TyperComponent
                         strings={[
-                          "Ethical Hacker.",
                           "Cybersecurity Specialist.",
-                          "Network Security Analyst.",
-                          "Penetration Tester.",
-                          "Security Consultant.",
+                          "IT Technician.",
+                          "Network Technician.",
+                          "Infrastructure Specialist.",
+                          "Systems Technician.",
                         ]}
                       />
                     </span>
                   </span>
                 </h1>
                 <p className="disc tmp-scroll-trigger tmp-fade-in animation-order-3">
-                  I’m passionate about IT and cybersecurity, with a strong focus on ethical hacking and networking. 
-                  I’m constantly learning through hands-on projects and real-world problem solving in system and network security.
+                  Computer Science Technician specializing in cybersecurity and IT infrastructure. 
+                  Continuously developing skills in networking, systems and information security.
                 </p>
                 <div className="button-area-banner-one tmp-scroll-trigger tmp-fade-in animation-order-4">
                   <Link
                     className="tmp-btn hover-icon-reverse radius-round"
-                    href={`/project`}
+                    href={`/about`}
                   >
                     <span className="icon-reverse-wrapper">
-                      <span className="btn-text">View Portfolio</span>
+                      <span className="btn-text">About me</span>
                       <span className="btn-icon">
                         <i className="fa-sharp fa-regular fa-arrow-right" />
                       </span>

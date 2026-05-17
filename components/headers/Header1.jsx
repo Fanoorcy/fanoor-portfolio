@@ -23,6 +23,7 @@ export default function Header1({
                     src={darkLogo}
                     width={121}
                     height={41}
+                    style={{ width: 'auto', height: 'auto' }}
                   />
                   <Image
                     className="logo-white"
@@ -30,6 +31,7 @@ export default function Header1({
                     src={lightLogo}
                     width={121}
                     height={40}
+                    style={{ width: 'auto', height: 'auto' }}
                   />
                 </Link>
               </div>

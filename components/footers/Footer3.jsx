@@ -80,32 +80,34 @@ export default function Footer3({
                       <span className="ft-icon">
                         <i className="fa-solid fa-envelope" />
                       </span>
-                      <a href="#">nafiz125@gmail.com</a>
+                      <a href="https://mail.google.com/mail/?view=cm&fs=1&to=contact@fanoor.dev&su=Portfolio%20Contact" target="_blank" rel="noopener noreferrer">
+                        contact@fanoor.dev
+                      </a>
                     </li>
                     <li>
                       <span className="ft-icon">
                         <i className="fa-solid fa-location-dot" />
                       </span>
-                      3891 Ranchview Dr. Richardson
+                      Castiglione delle Stivier (MN), Italy
                     </li>
                     <li>
                       <span className="ft-icon">
                         <i className="fa-solid fa-phone" />
                       </span>
-                      <a href="#">01245789321</a>
+                      <a href="tel:+393515947733">+39 351 594 7733</a>
                     </li>
                   </ul>
                   <div className="social-link footer">
-                    <a href="#">
+                    <a href="https://www.instagram.com/akhi_fahdd/" target="_blank" rel="noopener noreferrer">
                       <i className="fa-brands fa-instagram" />
                     </a>
-                    <a href="#">
+                    <a href="https://www.linkedin.com/in/fahd-kharras-781b72220/" target="_blank" rel="noopener noreferrer">
                       <i className="fa-brands fa-linkedin-in" />
                     </a>
-                    <a href="#">
-                      <i className="fa-brands fa-twitter" />
+                    <a href="https://github.com/Fanoorcy" target="_blank" rel="noopener noreferrer">
+                      <i className="fa-brands fa-github" />
                     </a>
-                    <a href="#">
+                    <a href="https://www.facebook.com/fanoor.dev/" target="_blank" rel="noopener noreferrer">
                       <i className="fa-brands fa-facebook-f" />
                     </a>
                   </div>

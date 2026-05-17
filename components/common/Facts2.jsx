@@ -1,6 +1,6 @@
 import { counters } from "@/data/facts";
 import React from "react";
-import OdometerComponent from "./OdometerComponent";
+import Counter from "./Counter";
 
 export default function Facts2() {
   return (
@@ -13,7 +13,7 @@ export default function Facts2() {
                 className={`counter-card tmp-scroll-trigger tmp-fade-in tmponhover animation-order-${item.order}`}
               >
                 <h3 className="counter counter-title">
-                  <OdometerComponent max={item.count} /> {item.suffix}
+                  <Counter value={item.count} /> {item.suffix}
                 </h3>
                 <p className="counter-para">{item.text}</p>
               </div>

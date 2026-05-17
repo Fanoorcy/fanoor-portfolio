@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { skills } from "@/data/skills";
-import OdometerComponent from "@/components/common/OdometerComponent";
+import Counter from "@/components/common/Counter";
 export default function Skills() {
   return (
     <div className="tmp-service-area tmp-section-gapBottom banner-personal-portfolio signle-section">
@@ -32,7 +32,7 @@ export default function Skills() {
                     height={item.height}
                   />
                   <h3 className="count-number">
-                    <OdometerComponent max={item.count} /> %
+                    <Counter value={item.count} /> %
                   </h3>
                   <p className="name">{item.name}</p>
                 </div>

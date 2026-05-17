@@ -1,5 +1,5 @@
 export const menuItems = [
-  { label: "Home", href: "#", isLink: false },
+  { label: "Home", href: ".", isLink: false },
   { label: "About", href: "/about", isLink: true },
   /*  Servizi menu is removed as per the request, if you want to add it back, please uncomment the below code and comment the above code for services menu
   {
@@ -13,26 +13,26 @@ export const menuItems = [
   },
     */
   {
-    label: "Blog",
+    label: "Blog (Coming soon)",
     href: "#",
     hasDropdown: true,
     submenu: [
-      { label: "Blog Classic", href: "/blog" },
+      { label: "Blog Classic", href: "/#" }, //{ label: "Blog Classic", href: "/blog" },
       {
         label: "Blog Details",
-        href: "/blog-details/lets-bring-your-ideas-to-life-contact-me-and-lets",
+        href: "/#", //href: "/blog-details/lets-bring-your-ideas-to-life-contact-me-and-lets",
       },
     ],
   },
   {
-    label: "Project",
+    label: "Project (Coming soon)",
     href: "#",
     hasDropdown: true,
     submenu: [
-      { label: "Project", href: "/project" },
+      { label: "Project", href: "/#" }, //{ label: "Project", href: "/project" },
       {
         label: "Project Details",
-        href: "/project-details/my-portfolio-of-innovation",
+        href: "/#", //href: "/project-details/my-portfolio-of-innovation",
       },
     ],
   },

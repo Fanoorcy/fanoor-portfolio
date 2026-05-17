@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { counters2 } from "@/data/facts";
-import OdometerComponent from "@/components/common/OdometerComponent";
+import Counter from "@/components/common/Counter";
 export default function Hero() {
   return (
     <div className="rpp-banner-five-area">
@@ -34,7 +34,7 @@ export default function Hero() {
                           className={`banner-counter-card tmp-scroll-trigger tmp-fade-in animation-order-${item.animationOrder}`}
                         >
                           <h4 className="counter title">
-                            <OdometerComponent max={item.count} />
+                            <Counter value={item.count} />
                             {item.suffix}
                           </h4>
                           <p className="para">{item.text}</p>

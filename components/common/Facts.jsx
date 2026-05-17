@@ -1,5 +1,5 @@
 import React from "react";
-import OdometerComponent from "./OdometerComponent";
+import Counter from "./Counter";
 import { counters } from "@/data/facts";
 
 export default function Facts() {
@@ -12,16 +12,15 @@ export default function Facts() {
               <div className="year-expariance-wrap">
                 {/* <h2 class="year-number"><span class="counter">25 </span> </h2> */}
                 <h2 className="counter year-number">
-                  <OdometerComponent max={25} />
+                  <Counter value={5} />
                 </h2>
                 <h3 className="year-title">
                   Years Of <br />
-                  experience
+                  IT Education
                 </h3>
               </div>
               <p className="year-para">
-                Business consulting consultants provide expert advice and guida
-                the a businesses to help theme their performance efficiency
+                at an Italian Technical Institute (ITIS), with a focus on computer systems, networking, IT infrastructure and cybersecurity.
               </p>
             </div>
           </div>
@@ -34,7 +33,7 @@ export default function Facts() {
                       className={`counter-card tmponhover tmp-scroll-trigger tmp-fade-in animation-order-${item.order}`}
                     >
                       <h3 className="counter counter-title">
-                        <OdometerComponent max={item.count} />
+                        <Counter value={item.count} />
                         {item.suffix}
                       </h3>
                       <p className="counter-para">{item.text}</p>
